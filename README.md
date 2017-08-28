@@ -1,21 +1,22 @@
 # MBA_LittleField
-  Original source from MBATU56: Thongchai N.
-  Modified by MBATU58: Chawisa P.
+  
+  ### All-in-one Littlefield Monitoring with single access
 
-  This is the duplex version for both classroom and world competition.
-  All-in-one Littlefield monitoring with single access.
-
-### To do
+  The original source from MBATU56: Thongchai N.
+  
+  This is the modified source by MBATU58: Chawisa P. for both classroom and world competition.
+  
+  ### To do:
 
 ```console
-* edit $id for your team name
-* edit $password for your password
+1. edit $id for your team name
+2. edit $password for your password
 
-* for world competition :
+3. for world competition :
   - edit $lt_url to "http://ism.responsive.net/Littlefield/" 
   - edit $institution to "opscom"
 
-* for classroom competition :
+4. for classroom competition :
   - edit $lt_url to "http://lab.responsive.net/Littlefield/"
   - edit $institution to your institution id (i.e. tu) 
 ```
