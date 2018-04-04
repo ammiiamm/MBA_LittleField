@@ -1,10 +1,12 @@
 <?php
 
-$lt_url = 'http://ism.responsive.net/Littlefield/';
+// $lt_url = 'http://ism.responsive.net/Littlefield/';
+//http://sim.responsive.net/lt/opscom/
+$lt_url = 'http://sim.responsive.net/Littlefield/';
 $filename = 'lt_'.date('Ymd_His').'.csv';
 $institution = 'opscom'; //main competition
-$id = '<put_your_id>';
-$password = '<put_your_password>';
+$id = 'tbskookkook';
+$password = 'jibjibjib';
 $sleep_time = 0.05;
 
 // login

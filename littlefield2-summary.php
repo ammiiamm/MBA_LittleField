@@ -35,11 +35,20 @@ h1 {
 <br>
 <?php
 
-$lt_url = 'http://lab.responsive.net/Littlefield/';
+//$lt_url = 'http://lab.responsive.net/Littlefield/';
+//$filename = 'lt_'.date('Ymd_His').'.csv';
+//$institution = '<your_institution_id>';
+//$id = '<your_id>';
+//$password = '<your_password>';
+
+// $lt_url = 'http://ism.responsive.net/Littlefield/';
+//http://sim.responsive.net/lt/opscom/
+$lt_url = 'http://sim.responsive.net/Littlefield/';
 $filename = 'lt_'.date('Ymd_His').'.csv';
-$institution = '<your_institution_id>';
-$id = '<your_id>';
-$password = '<your_password>';
+$institution = 'opscom'; //main competition
+$id = 'tbskookkook';
+$password = 'jibjibjib';
+
 $sleep_time = 0.1;
 
 function sd_square($x, $mean) { return pow($x - $mean,2); }

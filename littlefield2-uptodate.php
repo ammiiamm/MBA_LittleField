@@ -247,11 +247,20 @@ html>body tbody.scrollContent td + td + td {
 <?php
 
 //$lt_url = 'http://lab.responsive.net/Littlefield/';
-$lt_url = 'http://ism.responsive.net/Littlefield/';
+//$lt_url = 'http://ism.responsive.net/Littlefield/';
+//$filename = 'lt_'.date('Ymd_His').'.csv';
+//$institution = 'opscom';
+//$id = '<your_id>';
+//$password = '<your_password>';
+
+// $lt_url = 'http://ism.responsive.net/Littlefield/';
+//http://sim.responsive.net/lt/opscom/
+$lt_url = 'http://sim.responsive.net/Littlefield/';
 $filename = 'lt_'.date('Ymd_His').'.csv';
-$institution = 'opscom';
-$id = '<your_id>';
-$password = '<your_password>';
+$institution = 'opscom'; //main competition
+$id = 'tbskookkook';
+$password = 'jibjibjib';
+
 $sleep_time = 0.2;
 $mytime[30]='01:00';
 $mytime[31]='01:12';
